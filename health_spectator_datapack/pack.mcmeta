@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Converts players to Spectator mode when their health reaches 0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "death": {
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "rewards": {
+    "function": "health_spectator:on_damage"
+  }
+}
