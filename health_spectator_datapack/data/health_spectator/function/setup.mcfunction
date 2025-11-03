@@ -3,4 +3,4 @@ scoreboard objectives add time_since_death minecraft.custom:minecraft.time_since
 
 tellraw @a {"text":"[health_spectator] Setup complete. Remember to enable keepInventory and immediateRespawn.","color":"yellow"}
 gamerule keepInventory true
-gamerule doImmediateRespawn true
+gamerule doImmediateRespawn false
