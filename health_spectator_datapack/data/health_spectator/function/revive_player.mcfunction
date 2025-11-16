@@ -12,7 +12,7 @@ data modify storage health_spectator:location z set from entity @s LastDeathLoca
 
 function health_spectator:tp_with_fire with storage health_spectator:location
 
-playsound minecraft:entity.wither.death master @s ~ ~ ~ 1 0.5 1
+playsound minecraft:entity.wither.death master @a ~ ~ ~ 1 0.5 1
 
 # delete marker
 execute as @e[type=marker,tag=hs_gravestone_marker,limit=1,sort=nearest] run kill @s
