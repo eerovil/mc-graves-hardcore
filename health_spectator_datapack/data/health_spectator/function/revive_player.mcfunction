@@ -1,4 +1,6 @@
 tag @s remove hs_downed
+tag @s remove hs_downed_with_gravestone
+
 gamemode survival @s
 title @s title {"text":"Revived!","color":"green"}
 effect give @s minecraft:instant_health 1 1 true
