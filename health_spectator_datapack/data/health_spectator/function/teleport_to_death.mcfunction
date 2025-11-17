@@ -12,3 +12,5 @@ data modify storage health_spectator:location y set from entity @s LastDeathLoca
 data modify storage health_spectator:location z set from entity @s LastDeathLocation.pos[2]
 
 function health_spectator:teleport_to_death_inner with storage health_spectator:location
+
+execute at @s run playsound minecraft:entity.warden.death master @a ~ ~ ~ 1 0.5 1
