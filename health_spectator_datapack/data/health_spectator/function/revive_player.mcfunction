@@ -10,7 +10,7 @@ data modify storage health_spectator:location x set from entity @s LastDeathLoca
 data modify storage health_spectator:location y set from entity @s LastDeathLocation.pos[1]
 data modify storage health_spectator:location z set from entity @s LastDeathLocation.pos[2]
 
-function health_spectator:tp_with_fire with storage health_spectator:location
+function health_spectator:revive_player_inner with storage health_spectator:location
 
 playsound minecraft:entity.wither.death master @a ~ ~ ~ 1 0.5 1
 
