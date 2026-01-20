@@ -1,4 +1,4 @@
-# Run a particle effect at the marker (which sits on the obsidian block)
+# Run a particle effect at the armor stand (which sits on the obsidian block)
 execute at @s run particle minecraft:portal ~ ~1 ~ 0.2 0.5 0.2 0.01 10
 
 # execute at @s run playsound minecraft:entity.enderman.teleport master @a ~ ~ ~ 0.5 1 1
