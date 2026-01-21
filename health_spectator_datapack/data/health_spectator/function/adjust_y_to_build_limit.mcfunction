@@ -11,5 +11,5 @@ execute store result score #current_y hs_gravestone_timer run data get storage h
 execute if data storage health_spectator:location {dim:"minecraft:overworld"} if score #current_y hs_gravestone_timer matches ..-65 run data modify storage health_spectator:location y set value -64.0
 
 # Nether/End minimum: 0
-execute if data storage health_spectator:location {dim:"minecraft:the_nether"} if score #current_y hs_gravestone_timer matches ..-1 run data modify storage health_spectator:location y set value 0.0
-execute if data storage health_spectator:location {dim:"minecraft:the_end"} if score #current_y hs_gravestone_timer matches ..-1 run data modify storage health_spectator:location y set value 0.0
+execute if data storage health_spectator:location {dim:"minecraft:the_nether"} if score #current_y hs_gravestone_timer matches ..1 run data modify storage health_spectator:location y set value 2
+execute if data storage health_spectator:location {dim:"minecraft:the_end"} if score #current_y hs_gravestone_timer matches ..1 run data modify storage health_spectator:location y set value 2

@@ -5,6 +5,7 @@ $execute in $(dim) positioned $(x) $(y) $(z) \
     run function health_spectator:pull_closer with storage health_spectator:location
 
 $execute in $(dim) positioned $(x) $(y) $(z) if block ~ ~ ~ minecraft:obsidian run return 0
+
 # if missing -> revive
 scoreboard players get @s time_since_death
 
