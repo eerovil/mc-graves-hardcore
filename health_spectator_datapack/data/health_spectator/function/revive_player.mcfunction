@@ -7,6 +7,10 @@ effect give @s minecraft:instant_health 1 1 true
 effect give @s minecraft:regeneration 5 2 true
 effect give @s minecraft:hunger 5 255 true
 
+# remove experience
+xp set @s 0 levels
+xp set @s 0 points
+
 data modify storage health_spectator:location dim set from entity @s LastDeathLocation.dimension
 data modify storage health_spectator:location x set from entity @s LastDeathLocation.pos[0]
 data modify storage health_spectator:location y set from entity @s LastDeathLocation.pos[1]
